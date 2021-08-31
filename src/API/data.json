@@ -1,0 +1,46 @@
+[
+  {
+    "id": 2,
+    "label": "Etapa",
+    "inicial": true,
+    "tipo": "Select",
+    "filtro": [3, 4]
+  },
+  {
+    "id": 3,
+    "label": "Atualização de cadastro",
+    "tipo": "Option",
+    "filtro": 6,
+    "listaDocumentosId": 15
+  },
+  {
+    "id": 4,
+    "label": "Novo cadastro",
+    "tipo": "Option",
+    "filtro": 2,
+    "procede": 5
+  },
+  {
+    "id": 5,
+    "label": "Finalidade",
+    "tipo": "Select",
+    "filtro": [6, 7]
+  },
+  {
+    "id": 6,
+    "label": "NC001",
+    "procede": 3,
+    "filtro": [6, 7],
+    "fluxoId": 12,
+    "listaDocumentosId": 15
+  },
+  {
+    "id": 7,
+    "label": "NC003",
+    "procede": 3,
+    "condicao": "",
+    "tipo": "Final",
+    "fluxoId": 12,
+    "listaDocumentosId": 15
+  }
+]
